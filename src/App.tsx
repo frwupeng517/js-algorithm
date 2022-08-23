@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { binarySearch1 } from "./binary-search";
 
 function App() {
+  // 功能测试
+  const arr = [100, 200, 300, 400, 500, 600, 700, 800];
+  const target = 200;
+  console.log("result", binarySearch1(arr, target));
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello</h1>
     </div>
   );
 }
