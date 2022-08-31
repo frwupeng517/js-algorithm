@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
-import { binarySearch1, binarySearch2 } from "./binary-search";
+// import { binarySearch1, binarySearch2 } from "./binary-search";
+import { findTwoNumbers2 } from "./find-two-numbers";
 
 function App() {
   // 功能测试
+  /*
   const arr = [100, 200, 300, 400, 500, 600, 700, 800];
   const target = 200;
 
@@ -20,6 +22,10 @@ function App() {
   console.timeEnd("binarySearch2");
   // console.log("result", binarySearch1(arr, target));
   // console.log("result", binarySearch2(arr, target));
+  */
+
+  const arr = [1, 2, 4, 7, 11, 15];
+  console.log("findTwoNumbers1", findTwoNumbers2(arr, 15));
   return (
     <div className="App">
       <h1>hello</h1>
