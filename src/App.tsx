@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 // import { binarySearch1, binarySearch2 } from "./binary-search";
-import { findTwoNumbers2 } from "./find-two-numbers";
+// import { findTwoNumbers2 } from "./find-two-numbers";
+// import { getKthValue, BST } from "./binary-search-tree";
+import { fibonacci, fibonacci2, frog } from "./fibonacci";
 
 function App() {
   // 功能测试
@@ -23,9 +25,20 @@ function App() {
   // console.log("result", binarySearch1(arr, target));
   // console.log("result", binarySearch2(arr, target));
   */
-
+  /*
   const arr = [1, 2, 4, 7, 11, 15];
   console.log("findTwoNumbers1", findTwoNumbers2(arr, 15));
+  */
+  /*
+  console.log("中序", getKthValue(BST, 3));
+  */
+  console.log(fibonacci2(500));
+  // console.log(fibonacci(2));
+  // console.log(fibonacci(3));
+  // console.log(fibonacci(4));
+  console.log(frog(4));
+  console.log(frog(5));
+
   return (
     <div className="App">
       <h1>hello</h1>
