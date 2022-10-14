@@ -3,7 +3,9 @@ import "./App.css";
 // import { binarySearch1, binarySearch2 } from "./binary-search";
 // import { findTwoNumbers2 } from "./find-two-numbers";
 // import { getKthValue, BST } from "./binary-search-tree";
-import { fibonacci, fibonacci2, frog } from "./fibonacci";
+// import { fibonacci, fibonacci2, frog } from "./Part01-数据结构算法/fibonacci";
+import RotateArray from "./Part01-数据结构算法/01-RotateArray";
+// import Fibonacci from "./Part01-数据结构算法/04-Fibonacci";
 
 function App() {
   // 功能测试
@@ -32,16 +34,11 @@ function App() {
   /*
   console.log("中序", getKthValue(BST, 3));
   */
-  console.log(fibonacci2(500));
-  // console.log(fibonacci(2));
-  // console.log(fibonacci(3));
-  // console.log(fibonacci(4));
-  console.log(frog(4));
-  console.log(frog(5));
 
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div style={{ padding: 16 }}>
+      <RotateArray />
+      {/* <Fibonacci /> */}
     </div>
   );
 }

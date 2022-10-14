@@ -1,4 +1,4 @@
-import { fibonacci2 } from "./fibonacci";
+import { fibonacci2 } from "./index";
 
 describe("斐波那契数列", () => {
   it("0和1", () => {

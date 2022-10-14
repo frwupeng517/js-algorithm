@@ -1,7 +1,4 @@
-/**
- * 斐波那契数列
- * 0, 1, 1, 2, 3, 5, 8, 13, 21......
- */
+import React, { useEffect } from "react";
 
 /**
  * 使用递归获取斐波那契数列中的第N个数
@@ -68,3 +65,22 @@ export function frog(n: number): number {
   }
   return res;
 }
+
+function Fibonacci() {
+  useEffect(() => {
+    console.log(fibonacci2(500));
+    console.log(fibonacci(2));
+    console.log(fibonacci(3));
+    console.log(fibonacci(4));
+    console.log(frog(4));
+    console.log(frog(5));
+  }, []);
+  return (
+    <div className="App">
+      <h2>斐波那契数列</h2>
+      <h3>0, 1, 1, 2, 3, 5, 8, 13, 21......</h3>
+    </div>
+  );
+}
+
+export default Fibonacci;
